@@ -1,0 +1,12 @@
+.contianer{
+    background: #0C0C0C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+   
+}
+
+.navlink{
+    color: red;
+}
