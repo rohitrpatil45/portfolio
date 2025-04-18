@@ -14,9 +14,24 @@ function Navbar() {
   return (
     <>
       <div className="contianer">
-        <img src={myImage} alt="" />
+        <Link to="/">
+          <img src={myImage} alt="" className="image"/>
+        </Link>
+
         <div className="menu-contianer">
-          <Link to="/about" className="navlink"> About</Link>
+          <Link to="/about" className="nav-btn-wrapper">
+            <span className="nav-btn">About</span>
+          </Link>
+          <Link to="/about" className="nav-btn-wrapper">
+            <span className="nav-btn">Resume</span>
+          </Link>
+
+          <Link to="/contact" className="nav-btn-wrapper">
+            <span className="nav-btn">Contact</span>
+          </Link>
+
+
+      
         </div>
       </div>
     </>
