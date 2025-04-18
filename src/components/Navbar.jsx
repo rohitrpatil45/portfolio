@@ -1,8 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
 import "../components/navbar.css";
-
-import Contact from "../assets/pages/Contact";
-import About from "../assets/pages/About";
 
 // import form the react router dom
 import { Link } from "react-router-dom";
@@ -11,6 +8,9 @@ import { Link } from "react-router-dom";
 import myImage from "../assets/navbar.png";
 
 function Navbar() {
+
+const [isopen , setisopen] = useState(false)
+
   return (
     <>
       <div className="contianer">
