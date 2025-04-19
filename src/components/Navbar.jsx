@@ -25,14 +25,14 @@ const toggleMenu = () => {
         </Link>
 
         <div className={`menu-contianer ${isopen ? 'active' : ''}`}>
-          <Link to="/about" className="nav-btn-wrapper">
+          <Link to="/about" className="nav-btn-wrapper" onClick={toggleMenu}>
             <span className="nav-btn">About</span>
           </Link>
-          <Link to="/about" className="nav-btn-wrapper">
+          <Link to="/about" className="nav-btn-wrapper"  onClick={toggleMenu}>
             <span className="nav-btn">Resume</span>
           </Link>
 
-          <Link to="/contact" className="nav-btn-wrapper">
+          <Link to="/contact" className="nav-btn-wrapper"  onClick={toggleMenu}>
             <span className="nav-btn">Contact</span>
           </Link>
         </div>
