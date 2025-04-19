@@ -24,5 +24,30 @@
 .main-heading-container {
   font-family: "Lemon", serif;
   font-weight: 400;
-  
+  font-size: clamp(1rem, 6vw, 2.4rem)
+}
+
+
+
+
+
+
+
+@media (max-width: 578px) {
+    .heromainsection {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mainleft {
+        width: 100%;
+        background: yellow;
+      }
+      
+      .mainright {
+        width: 100%;
+        background: red;
+      }
+      
+
 }
