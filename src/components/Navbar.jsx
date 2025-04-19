@@ -9,34 +9,37 @@ import { Link } from "react-router-dom";
 import myImage from "../assets/navbar.png";
 
 function Navbar() {
+  const [isopen, setisopen] = useState(false);
 
-const [isopen , setisopen] = useState(false)
-
-
-const toggleMenu = () => {
-  setisopen(!isopen);
-};
+  const toggleMenu = () => {
+    setisopen(!isopen);
+  };
 
   return (
     <>
       <div className="contianer">
         <Link to="/">
-          <img src={myImage} alt="" className="image"/>
+          <img src={myImage} alt="" className="image" />
         </Link>
 
-        <div className={`menu-contianer ${isopen ? 'active' : ''}`}>
+        <div className={`menu-contianer ${isopen ? "active" : ""}`}>
           <Link to="/about" className="nav-btn-wrapper" onClick={toggleMenu}>
             <span className="nav-btn">About</span>
           </Link>
-          <Link to="/about" className="nav-btn-wrapper"  onClick={toggleMenu}>
+          <Link to="/about" className="nav-btn-wrapper" onClick={toggleMenu}>
             <span className="nav-btn">Resume</span>
           </Link>
 
-          <Link to="/contact" className="nav-btn-wrapper"  onClick={toggleMenu}>
+          <Link to="/contact" className="nav-btn-wrapper" onClick={toggleMenu}>
             <span className="nav-btn">Contact</span>
           </Link>
         </div>
-        <HiMenu size={24} color="white" className="menu-icon" onClick={toggleMenu} />
+        <HiMenu
+          size={24}
+          color="white"
+          className="menu-icon"
+          onClick={toggleMenu}
+        />
       </div>
     </>
   );

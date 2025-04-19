@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Lemon&display=swap');
+.heromainsection {
+  display: flex;
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%;
+  background: greenyellow;
+}
+
+.mainleft {
+  width: 60%;
+  background: yellow;
+}
+
+.mainright {
+  width: 40%;
+  background: red;
+}
+
+.hey-here-text {
+  font-family: "Itim", cursive;
+}
+
+.main-heading-container {
+  font-family: "Lemon", serif;
+  font-weight: 400;
+  
+}
