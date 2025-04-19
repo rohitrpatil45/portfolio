@@ -74,3 +74,38 @@
     }
   }
   
+.menu-icon{
+  display: none;
+
+}
+
+
+
+
+
+  @media (max-width: 578px) {
+    .menu-icon{
+      display: block;
+     
+    }
+
+    .menu-contianer {
+      display: none;
+      flex-direction: column;
+      background-color: #0c0c0c;
+      padding: 10px;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      border-radius: 10px;
+      /* width: 100%; */
+    }
+    .menu-contianer.active {
+      display: flex;
+    }
+  
+    .menu-icon {
+      display: block;
+      cursor: pointer;
+    }
+  }
