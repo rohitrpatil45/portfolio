@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&family=Lemon&display=swap');
 .heromainsection {
+  /* margin: 0;
+  padding: 0;
+  box-sizing: border-box; */
   display: flex;
   max-width: 1280px;
   margin: 0 auto;
@@ -21,10 +24,22 @@
   font-family: "Itim", cursive;
 }
 
-.main-heading-container {
+.main-heading-container  span{
   font-family: "Lemon", serif;
   font-weight: 400;
   font-size: clamp(1rem, 6vw, 2.4rem)
+}
+
+.rohit-span{
+  background: linear-gradient(45deg, #fc3c0c, #ff1e00, #bd1c16, #2575fc);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.changing-text-container{
+  color: red;
+  font-size: clamp(0.6rem, 3vw, 1.4rem)
 }
 
 
