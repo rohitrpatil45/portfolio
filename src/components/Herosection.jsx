@@ -30,7 +30,7 @@ function Herosection() {
             </span>
           </div>
           <div className="web-app-developer">
-            <span>
+            <span className="iamdev-container">
               I am a Web App Developer in
               <span className="changing-text-container"> {correntWord}</span>
             </span>
