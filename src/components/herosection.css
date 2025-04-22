@@ -1,4 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Itim&family=Lemon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Itim&family=Lemon&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 .heromainsection {
   /* margin: 0;
   padding: 0;
@@ -12,12 +20,14 @@
 
 .mainleft {
   width: 60%;
-  background: yellow;
+  padding: 15px;
+  /* background: #290af1; */
 }
 
 .mainright {
   width: 40%;
   background: red;
+  
 }
 
 .hey-here-text {
@@ -27,7 +37,8 @@
 .main-heading-container  span{
   font-family: "Lemon", serif;
   font-weight: 400;
-  font-size: clamp(1rem, 6vw, 2.4rem)
+  font-size: clamp(1rem, 6vw, 2.4rem);
+  /* background: yellow; */
 }
 
 .rohit-span{
@@ -39,16 +50,53 @@
 
 .changing-text-container{
   color: red;
-  font-size: clamp(0.6rem, 3vw, 1.4rem)
+  font-size: clamp(0.6rem, 3vw, 1.4rem);
+  
 }
 
 
 .iamdev-container{
-  font-size: clamp(0.4rem, 2.4vw, 1.2rem)
+  font-size: clamp(0.4rem, 2.4vw, 1.2rem);
+  /* background: hotpink; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  
+}
+.hey-here-text,
+.main-heading-container span,
+.iamdev-container {
+  line-height: 0.8;
+  margin: 0;
+  padding: 0;
+  display: inline-block; /* Prevent block stacking */
+  vertical-align: middle; /* Align them nicely */
+}
+
+.paragraph-container{
 
 }
 
+.details-span{
+  font-family: "Itim", cursive;
+  font-weight: 200;
+  font-style: normal;
+  display: inline-block; /* Prevent block stacking */
+  vertical-align: middle; 
+  font-size: clamp(0.7em, 1.4vw, 1em);
+}
+.social-median-contianer{
+display: flex;
+gap: 10px;
+padding-top: 10px;
+}
 
+.icon{
+  width: clamp(1em, 1.4vw, 1.5em);
+  /* background: red; */
+  height: 27px;
+}
 
 
 @media (max-width: 578px) {
@@ -60,11 +108,19 @@
     .mainleft {
         width: 100%;
         background: yellow;
+        padding: 15px;
       }
       
       .mainright {
         width: 100%;
         background: red;
+      }
+      .paragraph-container{
+
+      }
+
+      .details-span{
+
       }
       
 
