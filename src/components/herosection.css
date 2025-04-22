@@ -15,7 +15,7 @@
   max-width: 1280px;
   margin: 0 auto;
   width: 100%;
-  background: greenyellow;
+  background: rgb(0, 0, 0);
 }
 
 .mainleft {
@@ -32,12 +32,18 @@
 
 .hey-here-text {
   font-family: "Itim", cursive;
+  color: white;
+}
+
+.iam-span{
+  color: white;
 }
 
 .main-heading-container  span{
   font-family: "Lemon", serif;
   font-weight: 400;
   font-size: clamp(1rem, 6vw, 2.4rem);
+  
   /* background: yellow; */
 }
 
@@ -61,6 +67,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: white;
 
   
 }
@@ -85,6 +92,7 @@
   display: inline-block; /* Prevent block stacking */
   vertical-align: middle; 
   font-size: clamp(0.7em, 1.4vw, 1em);
+  color: white;
 }
 .social-median-contianer{
 display: flex;
@@ -96,6 +104,7 @@ padding-top: 10px;
   width: clamp(1em, 1.4vw, 1.5em);
   /* background: red; */
   height: 27px;
+  color: white;
 }
 
 
