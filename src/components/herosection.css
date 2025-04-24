@@ -15,7 +15,7 @@
   max-width: 1280px;
   margin: 0 auto;
   width: 100%;
-  background: rgb(0, 0, 0);
+ background: #0000001a;
   height: 100vh;
 }
 
@@ -48,14 +48,18 @@
 }
 
 .rohit-span {
-  background: linear-gradient(45deg, #fc3c0c, #ff1e00, #bd1c16, #2575fc);
+  background: linear-gradient(45deg, #ff00cc, #3333ff);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .changing-text-container {
-  color: red;
+  background: linear-gradient(45deg, #00d2ff, #3a7bd5);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
   font-size: clamp(0.6rem, 3.4 vw, 1.8rem);
 }
 
@@ -78,7 +82,7 @@
   color: white;
 }
 .social-median-contianer {
-  background: red;
+  /* background: red; */
 
   display: flex;
   gap: 10px;
