@@ -65,7 +65,7 @@
 
 
 .iamdev-container{
-  font-size: clamp(0.4rem, 2.4vw, 1.5rem);
+  font-size: clamp(0.9rem, 2.4vw, 1.5rem);
   /* background: hotpink; */
   margin: 0;
   padding: 0;
@@ -84,7 +84,7 @@
   font-style: normal;
   display: inline-block; /* Prevent block stacking */
   vertical-align: middle; 
-  font-size: clamp(0.7em, 1.1vw, 1em);
+  font-size: clamp(0.8em, 1.1vw, 1em);
   color: white;
 }
 .social-median-contianer{
@@ -111,6 +111,11 @@ padding-top: 10px;
         width: 100%;
         /* background: yellow; */
         padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+        min-height: 70vh;
       }
       
       .mainright {
