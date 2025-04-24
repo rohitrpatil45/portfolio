@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
 import "../components/herosection.css";
-
+import Btn from "./Buttons/Btn";
 // import form the react router dom
 import { Link } from "react-router-dom";
 // import icon form the react icon
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
+import { IoMdDownload } from "react-icons/io";
 
 function Herosection() {
   const words = ["Javascript", "Nodejs", "React", "Frontend", "backend"];
@@ -20,10 +21,10 @@ function Herosection() {
         return nextIndex;
       });
     }, 2000);
-  
+
     return () => clearInterval(interval);
   }, []);
-  
+
   return (
     <>
       <div className="heromainsection">
@@ -77,8 +78,9 @@ function Herosection() {
               <BsTwitterX className="icon" />
             </a>
           </div>
-          <div className="btn -container">
-            <button>rohit</button>
+          <div className="btn-container">
+          <Btn btntext= 'Resume' icon={<IoMdDownload />}/>
+          <Btn btntext= 'Contact Me'/>
           </div>
         </div>
         <div className="mainright">

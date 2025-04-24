@@ -100,6 +100,11 @@ padding-top: 10px;
   color: white;
 }
 
+.btn-container{
+  display: flex;
+  gap: 10px;
+}
+
 
 @media (max-width: 578px) {
     .heromainsection {
