@@ -3,11 +3,28 @@
 button{
     background: rgb(0, 255, 34);
     border-radius: 5px;
-    padding: 10px;
+    padding: 7px;
     font-family: "Lato", sans-serif;
     font-weight: 700;
     font-style: normal;
     text-align: center;
+
+
+
+      display: flex;
+      justify-content: center;
+    /* justify-content: space-between; */
+    align-items: center;
  
     /* align-items: center; */
+}
+.icon-element{
+    /* padding-top: 15px; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* background: red; */
+    /* object-fit: cover; */
+    font-size: 18px;
+    font-weight: 500;
 }

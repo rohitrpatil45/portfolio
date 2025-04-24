@@ -4,7 +4,7 @@ import '../Buttons/btn.css'
 function Btn({btntext, icon}) {
   return (
    <>
-   <button> {btntext} {icon}</button>
+   <button> {btntext} <span className='icon-element'>{icon}</span></button>
    </>
   )
 }
