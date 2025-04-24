@@ -14,14 +14,16 @@ function Herosection() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setindex((prevalue) => (prevalue + 1) % words.length);
-      setCurrentWord(words[index]);
-      // console.log(correntWord)
+      setindex((prevIndex) => {
+        const nextIndex = (prevIndex + 1) % words.length;
+        setCurrentWord(words[nextIndex]);
+        return nextIndex;
+      });
     }, 2000);
-    return () => {
-      clearInterval(interval);
-    };
-  }, [words]);
+  
+    return () => clearInterval(interval);
+  }, []);
+  
   return (
     <>
       <div className="heromainsection">
@@ -51,21 +53,34 @@ function Herosection() {
             </span>
           </div>
           <div className="social-median-contianer">
-            <Link to="https://github.com/rohitrpatil45">
+            <a
+              href="https://github.com/rohitrpatil45"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaGithub className="icon" />
-            </Link>
-            <Link to="https://www.linkedin.com/in/rohit-patil-56a634247?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/rohit-patil-56a634247?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaLinkedin className="icon" />
-            </Link>
-            <Link to="https://x.com/RohitPatil82428?s=09">
+            </a>
+
+            <a
+              href="https://x.com/RohitPatil82428?s=09"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <BsTwitterX className="icon" />
-            </Link>
+            </a>
           </div>
           <div className="btn -container">
-
+            <button>rohit</button>
           </div>
         </div>
-
         <div className="mainright">
           <h2>roih</h2>
         </div>

@@ -59,13 +59,13 @@
 
 .changing-text-container{
   color: red;
-  font-size: clamp(0.6rem, 3vw, 1.4rem);
+  font-size: clamp(0.6rem, 3.4 vw, 1.8rem);
   
 }
 
 
 .iamdev-container{
-  font-size: clamp(0.4rem, 2.4vw, 1.2rem);
+  font-size: clamp(0.4rem, 2.4vw, 1.5rem);
   /* background: hotpink; */
   margin: 0;
   padding: 0;
@@ -76,9 +76,7 @@
 }
 
 
-.paragraph-container{
 
-}
 
 .details-span{
   font-family: "Itim", cursive;
@@ -86,7 +84,7 @@
   font-style: normal;
   display: inline-block; /* Prevent block stacking */
   vertical-align: middle; 
-  font-size: clamp(0.7em, 1.4vw, 1.2em);
+  font-size: clamp(0.7em, 1.1vw, 1em);
   color: white;
 }
 .social-median-contianer{
@@ -119,13 +117,13 @@ padding-top: 10px;
         width: 100%;
         background: red;
       }
-      .paragraph-container{
+      /* .paragraph-container{
 
       }
 
       .details-span{
 
       }
-      
+       */
 
 }
