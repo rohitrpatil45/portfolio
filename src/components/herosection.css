@@ -15,8 +15,16 @@
   max-width: 1280px;
   margin: 0 auto;
   width: 100%;
- background: #00000017;
+  background: linear-gradient(270deg, #39318475, #d1d1d16c, #21adc960);
+  background-size: 600% 600%;
+  animation: gradientAnimation 3s ease infinite;
   height: 100vh;
+  border-radius: 12px;
+}
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
 .mainleft {
@@ -48,7 +56,7 @@
 }
 
 .rohit-span {
-  background: linear-gradient(45deg, #ff00cc, #3333ff);
+  background: linear-gradient(45deg, #ff00cc, #f73803);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -56,7 +64,7 @@
 }
 
 .changing-text-container {
-  background: linear-gradient(45deg, #00d2ff, #3a7bd5);
+  background: linear-gradient(45deg, #dc595b, #bd4e4e);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
