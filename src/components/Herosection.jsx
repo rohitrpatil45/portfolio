@@ -84,7 +84,7 @@ function Herosection() {
           </div>
         </div>
         <div className="mainright">
-          <h2>roih</h2>
+        
         </div>
       </div>
     </>
