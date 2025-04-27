@@ -35,10 +35,40 @@
 
 .mainright {
   width: 45%;
-  /* background: red; */
+  position: relative;
+  
+  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.mainright::after{
+  content: "";
+  position: absolute;
+  inset: -5;
+  padding: 10px;
+  background: linear-gradient(rgb(10, 134, 218),blue,rgb(63, 91, 216));
+  animation: imageratation 2s linear infinite both;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  z-index: -1;
+  filter: blur(20px);
+}
+
+.image-cotnainer{
+  position: relative;
+}
+
+@keyframes imageratation {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+  
 }
 
 .hey-here-text {

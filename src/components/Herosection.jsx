@@ -88,7 +88,9 @@ function Herosection() {
           </div>
         </div>
         <div className="mainright">
-        <img src={rohitimage} alt="" />
+      <div className="image-cotnainer">
+      <img src={rohitimage} alt="" />
+      </div>
         </div>
       </div>
     </>
