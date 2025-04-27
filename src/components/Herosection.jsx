@@ -8,6 +8,10 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { IoMdDownload } from "react-icons/io";
 
+
+// image import 
+import rohitimage from '../assets/Rohitpatil.png'
+
 function Herosection() {
   const words = ["Javascript", "Nodejs", "React", "Frontend", "backend"];
   const [correntWord, setCurrentWord] = useState(words[0]);
@@ -84,7 +88,7 @@ function Herosection() {
           </div>
         </div>
         <div className="mainright">
-        
+        <img src={rohitimage} alt="" />
         </div>
       </div>
     </>

@@ -15,7 +15,7 @@
   max-width: 1280px;
   margin: 0 auto;
   width: 100%;
-  background: linear-gradient(270deg, #39318475, #d1d1d16c, #21adc960);
+  /*   */
   background-size: 600% 600%;
   animation: gradientAnimation 3s ease infinite;
   height: 100vh;
@@ -35,7 +35,10 @@
 
 .mainright {
   width: 45%;
-  background: red;
+  /* background: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hey-here-text {
@@ -127,12 +130,14 @@
     flex-direction: column;
     justify-content: center;
     /* align-items: center; */
-    min-height: 70vh;
+    /* min-height: 70vh; */
   }
 
   .mainright {
     width: 100%;
-    background: red;
+    overflow: hidden;
+    /* background: red; */
+    height: auto;
   }
   /* .paragraph-container{
 
