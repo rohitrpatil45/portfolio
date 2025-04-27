@@ -24,7 +24,7 @@ function Herosection() {
         setCurrentWord(words[nextIndex]);
         return nextIndex;
       });
-    }, 2000);
+    }, 4000);
 
     return () => clearInterval(interval);
   }, []);
