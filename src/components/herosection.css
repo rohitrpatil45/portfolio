@@ -173,8 +173,30 @@ background: red;
   .mainright {
     width: 100%;
     overflow: hidden;
-    /* background: red; */
+    background: rgba(221, 49, 49, 0.781);
     height: auto;
+  
+    /* display: none; */
+ 
+  }
+
+  .mainright::after{
+    content: "";
+    filter: blur(39px);
+  }
+
+  .image-cotnainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+ 
+
+  .image-cotnainer{
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
   }
   /* .paragraph-container{
 
@@ -184,4 +206,24 @@ background: red;
 
       }
        */
+}
+
+
+@media (min-width: 579px) and (max-width :1266px){
+
+.mainright::after{
+  background: linear-gradient(rgba(31, 31, 20, 0.685),rgba(59, 51, 50, 0.171),rgba(19, 16, 13, 0.562));
+
+}
+.heromainsection {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainright{
+  overflow: hidden;
+}
+.image-cotnainer img{
+padding-right: 50px;
+}
 }
