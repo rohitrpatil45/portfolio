@@ -10,6 +10,7 @@ import { IoMdDownload } from "react-icons/io";
 
 // image import
 import rohitimage from "../assets/Rohitpatil.png";
+import MainSkill from "./skill-section/MainSkill";
 
 function Herosection() {
   const words = ["Javascript", "Nodejs", "React", "Frontend", "backend"];
@@ -92,6 +93,7 @@ function Herosection() {
           </div>
         </div>
       </div>
+      <MainSkill />
     </>
   );
 }

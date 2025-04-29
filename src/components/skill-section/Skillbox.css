@@ -1,0 +1,12 @@
+.skill-mainContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    background: rgba(27, 4, 4, 0.281);
+}
+.title{
+    text-align: center;
+    background: linear-gradient(45deg, #df0909, #f73803da);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}

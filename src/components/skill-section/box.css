@@ -1,0 +1,71 @@
+/* .box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: hotpink;
+    max-width: 400px;
+}
+.image-tag{
+    border-radius: 50%;
+ background: red;
+ height: 170px;
+
+}
+
+
+
+.name-tag{
+    text-align: center;
+}
+.detail-tag{
+    text-align: center;
+    display: block;
+    background: white;
+    font-size: clamp(0.5em, 0.8vw, 1em);
+} */
+
+
+/* Container for each skill box */
+.box {
+    width: 100%;
+    max-width: 300px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 20px;
+    margin: 10px auto;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Profile/Skill Image */
+  .image-tag {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    background-color: #110101;
+    padding: 10px;
+  }
+  
+  /* Skill Name */
+  .name-tag h2 {
+    margin: 0;
+    font-size: 1.4rem;
+    color: #2b2b2b;
+  }
+  
+  /* Skill Description */
+  .detail-tag {
+    margin-top: 10px;
+    font-size: 0.95rem;
+    color: #666666;
+    line-height: 1.4;
+  }
+  
