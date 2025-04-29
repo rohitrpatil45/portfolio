@@ -29,9 +29,10 @@
 .box {
     width: 100%;
     max-width: 300px;
-    background-color: #ffffff;
+    background-color: #070404d3;
     border-radius: 16px;
     padding: 20px;
+    color: white;
     margin: 10px auto;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -41,6 +42,7 @@
   .box:hover {
     transform: translateY(-8px);
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+    border: 2px solid red;
   }
   
   /* Profile/Skill Image */
@@ -58,14 +60,16 @@
   .name-tag h2 {
     margin: 0;
     font-size: 1.4rem;
-    color: #2b2b2b;
+    color: #ffffff;
   }
+
+  
   
   /* Skill Description */
   .detail-tag {
     margin-top: 10px;
     font-size: 0.95rem;
-    color: #666666;
+    color: #ffffff;
     line-height: 1.4;
   }
   

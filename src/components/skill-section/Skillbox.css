@@ -1,11 +1,32 @@
 .skill-mainContainer{
+   
+    background: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.Skill-box-container{
     display: grid;
-    grid-template-columns: 1fr 1fr ;
-    background: rgba(27, 4, 4, 0.281);
+    grid-template-columns: repeat(auto-fill ,minmax(300px ,1fr));
 }
 .title{
+    border-radius: 20px;
     text-align: center;
-    background: linear-gradient(45deg, #df0909, #f73803da);
+    /* background: #000000c0; */
+ 
+ 
+}
+
+.title p{
+    color: white;
+}
+.title h2{
+    padding: 10px;
+
+
+    /* border: 4px solid rgb(235, 14, 14) ; */
+    border-radius: 20px;
+    text-align: center;
+    background: linear-gradient( #df0909,#3f0bce, #d12a0dda);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
