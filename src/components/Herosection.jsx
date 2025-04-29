@@ -8,9 +8,8 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { IoMdDownload } from "react-icons/io";
 
-
-// image import 
-import rohitimage from '../assets/Rohitpatil.png'
+// image import
+import rohitimage from "../assets/Rohitpatil.png";
 
 function Herosection() {
   const words = ["Javascript", "Nodejs", "React", "Frontend", "backend"];
@@ -83,14 +82,14 @@ function Herosection() {
             </a>
           </div>
           <div className="btn-container">
-          <Btn btntext= 'Resume' icon={<IoMdDownload />}/>
-          <Btn btntext= 'Contact Me'/>
+            <Btn btntext="Resume" icon={<IoMdDownload />} />
+            <Btn btntext="Contact Me" />
           </div>
         </div>
         <div className="mainright">
-      <div className="image-cotnainer">
-      <img src={rohitimage} alt="" />
-      </div>
+          <div className="image-cotnainer">
+            <img src={rohitimage} alt="" />
+          </div>
         </div>
       </div>
     </>
