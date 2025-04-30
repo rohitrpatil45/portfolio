@@ -1,8 +1,14 @@
 import React from "react";
 import SkillBox from "./SkillBox";
 import "./SkillBox.css";
-import reactimage from "./react.svg";
-import nodeimage from "./nodejs-icon.svg";
+import reactimage from "./svg/react.svg";
+import nodeimage from "./svg/nodejs-icon.svg";
+import js from "./svg/js.svg";
+import mongodb from "./svg/mogoodb.svg";
+import redux from "./svg/redux.svg";
+import tailwind from "./svg/tailwind.svg";
+import github from "./svg/gihub.svg";
+import express from "./svg/express.svg";
 
 function MainSkill() {
   return (
@@ -10,7 +16,7 @@ function MainSkill() {
       <div className="skill-mainContainer">
         <div className="title">
           <h2>Skills & Services</h2>
-          <p>This is My Skill </p>
+          {/* <p>This is My Skill </p> */}
         </div>
         <div className="Skill-box-container">
           <SkillBox
@@ -21,6 +27,36 @@ function MainSkill() {
           <SkillBox
             image={nodeimage}
             name="NodeJs"
+            details="lorem1 wefjh wiufeg iwufg iuwf iuwgfe iuwgef iuwghef"
+          />
+          <SkillBox
+            image={js}
+            name="JavaScript"
+            details="lorem1 wefjh wiufeg iwufg iuwf iuwgfe iuwgef iuwghef"
+          />
+          <SkillBox
+            image={express}
+            name="Express"
+            details="lorem1 wefjh wiufeg iwufg iuwf iuwgfe iuwgef iuwghef"
+          />
+          <SkillBox
+            image={redux}
+            name="Redux"
+            details="lorem1 wefjh wiufeg iwufg iuwf iuwgfe iuwgef iuwghef"
+          />{" "}
+          <SkillBox
+            image={tailwind}
+            name="tailwind"
+            details="lorem1 wefjh wiufeg iwufg iuwf iuwgfe iuwgef iuwghef"
+          />
+          <SkillBox
+            image={github}
+            name="Github"
+            details="lorem1 wefjh wiufeg iwufg iuwf iuwgfe iuwgef iuwghef"
+          />
+          <SkillBox
+            image={mongodb}
+            name="JavaScript"
             details="lorem1 wefjh wiufeg iwufg iuwf iuwgfe iuwgef iuwghef"
           />
         </div>

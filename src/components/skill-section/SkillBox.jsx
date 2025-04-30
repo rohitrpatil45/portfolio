@@ -1,6 +1,6 @@
 import React from "react";
 import "./box.css";
-import reactimage from "./react.svg";
+// import reactimage from "./react.svg";
 
 function SkillBox({ image, name, details }) {
   return (

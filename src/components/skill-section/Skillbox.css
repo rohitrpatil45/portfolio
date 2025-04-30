@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
+
 .skill-mainContainer{
    
     background: rgb(0, 0, 0);
@@ -5,6 +7,7 @@
 }
 
 .Skill-box-container{
+    padding: 25px 0;
     display: grid;
     grid-template-columns: repeat(auto-fill ,minmax(300px ,1fr));
 }
@@ -21,12 +24,15 @@
 }
 .title h2{
     padding: 10px;
-
+    font-family: "Tagesschrift", system-ui;
+    font-weight: 800;
+    font-size: clamp(1rem, 7vw, 2.8rem);
+    font-style: normal;
 
     /* border: 4px solid rgb(235, 14, 14) ; */
     border-radius: 20px;
     text-align: center;
-    background: linear-gradient( #df0909,#3f0bce, #d12a0dda);
+    background: linear-gradient(45deg, #e031bd, #f73803);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
