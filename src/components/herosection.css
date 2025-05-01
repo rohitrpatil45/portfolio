@@ -223,6 +223,12 @@ background: red;
 .mainright{
   overflow: hidden;
 }
+
+.image-cotnainer{
+  background: #000;
+  padding-right: 150px;
+}
+
 .image-cotnainer img{
 padding-right: 50px;
 }
