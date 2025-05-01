@@ -6,7 +6,7 @@ function SkillBox({ image, name, details }) {
   return (
     <>
       <div className="box">
-        <img className="image-tag" src={image} alt="" />
+        <img className="image-tag round" src={image} alt="" />
        <div className="name-tag">
        <h2>{name}</h2>
        </div>
