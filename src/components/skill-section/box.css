@@ -41,6 +41,7 @@
 
   .round{
     border-radius: 50%;
+    
   }
   
   .box:hover {
@@ -54,10 +55,11 @@
     width: 100px;
     height: 100px;
     object-fit: contain;
+ 
     border-radius: 50%;
     margin-bottom: 15px;
     background-color: #5b5c50c9;
-    padding: 10px;
+    padding: 12px;
   }
   
   /* Skill Name */

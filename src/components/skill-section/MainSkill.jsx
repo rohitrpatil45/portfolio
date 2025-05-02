@@ -4,7 +4,7 @@ import "./SkillBox.css";
 import reactimage from "./svg/react.svg";
 import nodeimage from "./svg/nodejs-icon.svg";
 import js from "./svg/js.svg";
-import mongodb from "./svg/mogoodb.svg";
+import mongodb from "./svg/MongoDB.svg";
 import redux from "./svg/redux2.png";
 import tailwind from "./svg/tailwind.svg";
 import github from "./svg/gihub.svg";
@@ -19,6 +19,16 @@ function MainSkill() {
           {/* <p>This is My Skill </p> */}
         </div>
         <div className="Skill-box-container">
+          <SkillBox
+            image={mongodb}
+            name="JavaScript"
+            details="lorem1 wefjh wiufeg iwufg iuwf iuwgfe iuwgef iuwghef"
+          />
+          <SkillBox
+            image={express}
+            name="Express"
+            details="lorem1 wefjh wiufeg iwufg iuwf iuwgfe iuwgef iuwghef"
+          />
           <SkillBox
             image={reactimage}
             name="react"
@@ -35,13 +45,10 @@ function MainSkill() {
             details="lorem1 wefjh wiufeg iwufg iuwf iuwgfe iuwgef iuwghef"
           />
           <SkillBox
-            image={express}
-            name="Express"
-            details="lorem1 wefjh wiufeg iwufg iuwf iuwgfe iuwgef iuwghef"
-          />
-          <SkillBox
+            className="name"
             image={redux}
             name="Redux"
+            forredux="redux-image"
             details="lorem1 wefjh wiufeg iwufg iuwf iuwgfe iuwgef iuwghef"
           />{" "}
           <SkillBox
@@ -52,11 +59,6 @@ function MainSkill() {
           <SkillBox
             image={github}
             name="Github"
-            details="lorem1 wefjh wiufeg iwufg iuwf iuwgfe iuwgef iuwghef"
-          />
-          <SkillBox
-            image={mongodb}
-            name="JavaScript"
             details="lorem1 wefjh wiufeg iwufg iuwf iuwgfe iuwgef iuwghef"
           />
         </div>

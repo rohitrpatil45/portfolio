@@ -20,6 +20,13 @@
  
 }
 
+.redux-image{
+    padding: 15px;
+    width: 100%;
+    height: 100%git ;
+    object-fit: cover;
+}
+
 .title p{
     color: white;
 }
