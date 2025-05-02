@@ -5,7 +5,7 @@ import reactimage from "./svg/react.svg";
 import nodeimage from "./svg/nodejs-icon.svg";
 import js from "./svg/js.svg";
 import mongodb from "./svg/MongoDB.svg";
-import redux from "./svg/redux2.png";
+import redux from "./svg/redux-original.svg";
 import tailwind from "./svg/tailwind.svg";
 import github from "./svg/gihub.svg";
 import express from "./svg/express.svg";
