@@ -11,6 +11,7 @@ import { IoMdDownload } from "react-icons/io";
 // image import
 import rohitimage from "../assets/Rohitpatil.png";
 import MainSkill from "./skill-section/MainSkill";
+import Gitgraph from "./GitHubContribution/Gitgraph";
 
 function Herosection() {
   const words = ["TailwindCSS", "JavaScript", "React", "Node.js", "ExpressJS", "MongoDB", "Frontend", "backend"];
@@ -94,6 +95,7 @@ function Herosection() {
         </div>
       </div>
       <MainSkill />
+      <Gitgraph />
     </>
   );
 }
