@@ -15,7 +15,7 @@ function MainSkill() {
     <>
       <div className="skill-mainContainer">
         <div className="title">
-          <h2>Skills & Services</h2>
+          <h2>My Toolkit</h2>
           {/* <p>This is My Skill </p> */}
         </div>
         <div className="Skill-box-container">

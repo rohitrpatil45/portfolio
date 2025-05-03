@@ -13,7 +13,7 @@ import rohitimage from "../assets/Rohitpatil.png";
 import MainSkill from "./skill-section/MainSkill";
 
 function Herosection() {
-  const words = ["Javascript", "Nodejs", "React", "Frontend", "backend"];
+  const words = ["TailwindCSS", "JavaScript", "React", "Node.js", "ExpressJS", "MongoDB", "Frontend", "backend"];
   const [correntWord, setCurrentWord] = useState(words[0]);
   const [index, setindex] = useState(0);
 
