@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
 
 .skill-mainContainer{
    
@@ -26,8 +27,10 @@
     /* height: 100% ; */
     object-fit: contain;
     z-index: 2;
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    /* padding-bottom: 10px; */
 }
 
 .title p{

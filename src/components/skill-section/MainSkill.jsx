@@ -31,13 +31,13 @@ function MainSkill() {
           />
           <SkillBox
             image={reactimage}
-            name="react"
-            details="lorem1 wefjh wiufeg iwufg iuwf iuwgfe iuwgef iuwghef"
+            name="React"
+            details="lReact.js for Frontend and User-Interface Development."
           />
           <SkillBox
             image={nodeimage}
             name="NodeJs"
-            details="lorem1 wefjh wiufeg iwufg iuwf iuwgfe iuwgef iuwghef"
+            details="Next.js for Frontend and Backend Both Development."
           />
           <SkillBox
             image={js}
@@ -49,7 +49,7 @@ function MainSkill() {
             image={redux}
             name="Redux"
             forredux="redux-image"
-            details="lorem1 wefjh wiufeg iwufg iuwf iuwgfe iuwgef iuwghef"
+            details="Redux is a predictable state container for JavaScript apps."
           />{" "}
           <SkillBox
             image={tailwind}

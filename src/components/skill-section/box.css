@@ -26,6 +26,8 @@
 
 
 /* Container for each skill box */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@200..900&display=swap');
 .box {
     width: 100%;
     max-width: 300px;
@@ -65,6 +67,8 @@
   /* Skill Name */
   .name-tag h2 {
     margin: 0;
+    font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
     font-size: 1.4rem;
     color: #ffffff;
   }
@@ -77,5 +81,7 @@
     font-size: 0.95rem;
     color: #ffffff;
     line-height: 1.4;
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
   }
   
