@@ -18,7 +18,7 @@ function Gitgraph() {
      fontSize={19} 
      theme={{
         light: ["#ebedf0", "#9be9a8", "#40c463", "#30a14e", "#216e39"],
-        dark: ["#161b22", "#8250df", "#a371f7", "#bf9fff", "#d2bfff"]
+        dark: ["#161b22", "#A62C2C", "#E83F25", "#FF8282", "#FF8282"]
       }}
      colorScheme="dark" 
      responsive={true}
