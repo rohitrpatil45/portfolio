@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 .graph-div {
-    border: 5px solid rgb(255, 255, 255);
-    border-radius: 15px;
-    color: greenyellow;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    color: rgb(238, 234, 5);
     font-family: "Inconsolata", monospace !important;
     font-optical-sizing: auto;
     font-weight: 200;
@@ -18,7 +18,7 @@
 }
 
 .graph-div::-webkit-scrollbar-thumb {
-    background-color: #0dd82e;
+    background-color: #cad80d;
     border-radius: 10px;
     border: 2px solid #0d011e;
 }

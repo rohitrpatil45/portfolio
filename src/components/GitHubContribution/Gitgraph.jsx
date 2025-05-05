@@ -13,50 +13,56 @@ function Gitgraph() {
   const [gitdata, setgitdata] = useState([]);
 
   useEffect(() => {
-    const fetchdata = async () => {
+    const gettingdata = async () => {
       try {
         const response = await fetch(
-          "https://github-contributions-api.jogruber.de/v4/rohitrpatil45"
+          'https://github-contributions-api.jogruber.de/v4/rohitrpatil45?y=2025'
         );
-        const fetchdata = await response.json();
-        console.log("this fetchdata", fetchdata);
-        const mapdata = fetchdata.contributions.map((({date ,count,level}) => (
-          {
-            date,
-            count,
-            level
-          }
-        )))
-        setgitdata(mapdata);
+        const data = await response.json();
+        console.log(data)
+  
+        const formattedData = data.contributions.map(({ date, count, level }) => ({
+          date,
+          count,
+          level,
+        }));
+  
+        setgitdata(formattedData);
       } catch (error) {
-        console.log(error);
+        console.log("The error is:", error);
       }
     };
-    fetchdata(); //
+  
+    gettingdata();
   }, []);
 
-  const data = [
+
+  useEffect(() => {
+    console.log("Updated gitdata:", gitdata);
+  }, [gitdata]);
+  
+  const demodata = [
     {
-      date: "2025-06-23",
+      date: '2024-06-23',
       count: 2,
       level: 1,
     },
     {
-      date: "2025-08-02",
+      date: '2024-08-02',
       count: 16,
       level: 4,
     },
     {
-      date: "2025-11-29",
+      date: '2024-11-29',
       count: 11,
       level: 3,
     },
-  ];
+  ]
 
   return (
     <>
       <div className="graph-div">
-        <ActivityCalendar data={gitdata.length > 0 ? gitdata : data} />
+       <ActivityCalendar data={gitdata.length > 0 ? gitdata : demodata} />    
       </div>
     </>
   );
