@@ -10,7 +10,7 @@ import { fetchGitHubData } from "react-activity-calendar";
 
 function Gitgraph() {
   const [gitdata, setgitdata] = useState([]);
-  const [seleccted , setSelected] = useState(null)
+  const [seleccted, setSelected] = useState(null);
 
   useEffect(() => {
     const gettingdata = async () => {
@@ -75,7 +75,7 @@ function Gitgraph() {
               const eventdetails2 = activity;
 
               console.log(eventdetails);
-              setSelected(eventdetails2)
+              setSelected(eventdetails2);
               // alert(JSON.stringify(activity));
             },
             onMouseEnter: (event) => (activity) => {
@@ -83,16 +83,20 @@ function Gitgraph() {
             },
           }}
         />
-        {
-          seleccted &&
-          (
-            <div className="detail-box">
-              <p><strong>Date:</strong> {seleccted.date}</p>
-              <p><strong>Contributions:</strong> {seleccted.count}</p>
-              <p><strong>Level:</strong> {seleccted.level}</p>
-            </div>
-          )
-        }
+        {seleccted && (
+          <div className="detail-box">
+            <h2 className="heading-detail-container">Detail OF Block</h2>
+            <p>
+              <strong>Date:</strong> {seleccted.date}
+            </p>
+            <p>
+              <strong>Contributions:</strong> {seleccted.count}
+            </p>
+            <p>
+              <strong>Level:</strong> {seleccted.level}
+            </p>
+          </div>
+        )}
       </div>
     </>
   );

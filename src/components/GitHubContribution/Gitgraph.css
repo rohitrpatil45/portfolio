@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Inconsolata:wght@200..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 .graph-div {
     border: 3px solid rgb(255, 255, 255);
     border-radius: 10px;
     color: rgb(238, 234, 5);
-    font-family: monospace !important;
+    /* font-family: monospace !important; */
     font-optical-sizing: auto;
+    font-family: "Inconsolata", monospace;
     font-weight: 100;
     font-style: normal;
     display: flex;
@@ -19,6 +20,26 @@
     /* background: red; */
 }
 
+.heading-detail-container{
+    font-family: "DynaPuff", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 500 ;
+    color: white;
+}
+.btn-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.see-more-btn{
+    background: red;
+text-align: center;
+
+}
+
 .graph-div::-webkit-scrollbar-thumb {
     background-color: #cad80d;
     border-radius: 10px;
@@ -28,8 +49,14 @@
 .detail-box p{
     color: rgb(81, 255, 0);
     font-size: 1.2em;
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+    font-weight: 500 ;
+    
 }
 .detail-box strong{
+    font-family: "PT Serif", serif;
+    font-weight: 400;
     color: rgb(255, 0, 0);
 }
 

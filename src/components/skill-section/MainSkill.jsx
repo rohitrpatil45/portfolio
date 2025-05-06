@@ -21,18 +21,18 @@ function MainSkill() {
         <div className="Skill-box-container">
           <SkillBox
             image={mongodb}
-            name="JavaScript"
-            details="lorem1 wefjh wiufeg iwufg iuwf iuwgfe iuwgef iuwghef"
+            name="MongoDB"
+            details="Flexible NoSQL database to store data in JSON-like documents"
           />
           <SkillBox
             image={express}
             name="Express"
-            details="lorem1 wefjh wiufeg iwufg iuwf iuwgfe iuwgef iuwghef"
+            details="Minimal and fast Node.js backend framework for APIs and web apps."
           />
           <SkillBox
             image={reactimage}
             name="React"
-            details="lReact.js for Frontend and User-Interface Development."
+            details="React.js for Frontend and User-Interface Development."
           />
           <SkillBox
             image={nodeimage}
@@ -42,7 +42,7 @@ function MainSkill() {
           <SkillBox
             image={js}
             name="JavaScript"
-            details="lorem1 wefjh wiufeg iwufg iuwf iuwgfe iuwgef iuwghef"
+            details="Builds the logic behind every interactive website feature"
           />
           <SkillBox
             className="name"
@@ -54,14 +54,17 @@ function MainSkill() {
           <SkillBox
             image={tailwind}
             name="tailwind"
-            details="lorem1 wefjh wiufeg iwufg iuwf iuwgfe iuwgef iuwghef"
+            details="Utility-first CSS framework for building custom designs rapidly"
           />
           <SkillBox
             image={github}
             name="Github"
-            details="lorem1 wefjh wiufeg iwufg iuwf iuwgfe iuwgef iuwghef"
+            details="Manages code versions, collaborations, and project workflows"
           />
         </div>
+       <div className="btn-container">
+       <button className="see-more-btn">See More</button>
+       </div>
       </div>
     </>
   );
