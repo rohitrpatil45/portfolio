@@ -24,7 +24,7 @@ function Navbar() {
 
         <div className={`menu-contianer ${isopen ? "active" : ""}`}>
           <Link to="/about" className="nav-btn-wrapper" onClick={toggleMenu}>
-            <span className="nav-btn">About</span>
+            <span className="nav-btn">Porject</span>
           </Link>
           <Link to="/about" className="nav-btn-wrapper" onClick={toggleMenu}>
             <span className="nav-btn">Resume</span>
