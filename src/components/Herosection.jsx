@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "../components/herosection.css";
 import Btn from "./Buttons/Btn";
+import PorjectGrid from "./project_section/PorjectGrid";
+
 // import form the react router dom
 import { Link } from "react-router-dom";
 // import icon form the react icon
@@ -96,6 +98,8 @@ function Herosection() {
       </div>
       <MainSkill />
       <Gitgraph />
+      <PorjectGrid />
+      
     </>
   );
 }
