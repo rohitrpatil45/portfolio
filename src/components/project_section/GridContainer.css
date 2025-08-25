@@ -1,9 +1,13 @@
 .grid-container {
+  background: #000;
+  border-radius: 12px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* responsive */
+  align-items:  center;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* responsive */
   gap: 20px;
   padding: 20px;
-  max-width: 1200px;
+  max-width: 1280px;
   margin: 0 auto; /* center on page */
 }
 
