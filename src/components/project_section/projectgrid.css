@@ -1,10 +1,5 @@
 .motion-animation{
-    /* background: red; */
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.motion-h1{
-    font-size: clamp(1.2rem, 3.5vw, 3.1rem);
-color: pink;
 }
