@@ -1,7 +1,8 @@
 import React, { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import "../project_section/projectgrid.css";
-import ProjectGirdColumns from "./ProjectGirdColumns";
+// import ProjectGirdColumns from "./ProjectCard";
+import GridContainer from "./GridContainer";
 
 function PorjectGrid() {
  const ref = useRef(null);
@@ -12,16 +13,16 @@ function PorjectGrid() {
       <div className="motion-animation">
         <motion.h1
           ref={ref}
-          initial={{ opacity: 0, y: -50 }}   /* starting state */
-          animate={isInView ? { opacity: 1, y: 0, rotate: -2 } : {}} /* final state */
-          transition={{ duration: 1 }}       /* animation timing */
+          initial={{ opacity: 0, y: -50 , color: 'white' }}   /* starting state */
+          animate={isInView ? { opacity: 1, y: 0, rotate: -2, color : "red" } : {}} /* final state */
+          transition={{ duration: 2.5 }}       /* animation timing */
           className="motion-h1"
         >
           Projects 🚀
         </motion.h1>
       </div>
-
-      <ProjectGirdColumns />
+ <GridContainer />
+      
     </>
   );
 }
