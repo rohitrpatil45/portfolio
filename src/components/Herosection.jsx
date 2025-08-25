@@ -54,7 +54,7 @@ function Herosection() {
               in Back-End development with Node.js and Front-End development
               with React.js. I have worked on various projects, including a
               Real Link-Shortener, E-Commerce APIs, React-based Website Design
-              and Development, and more. I am passionate about learning new
+              and Development, and more.I am passionate about learning new
               technologies and building solutions that make a difference. Thank
               you for visiting my portfolio! I hope you like my work. Happy
               coding!

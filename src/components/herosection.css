@@ -173,16 +173,19 @@ background: red;
   .mainright {
     width: 100%;
     overflow: hidden;
-    background: rgba(221, 49, 49, 0.781);
+    background: transparent;
     height: auto;
   
     /* display: none; */
  
   }
 
-  .mainright::after{
+  /* .mainright::after{
     content: "";
     filter: blur(39px);
+  } */
+  .image-cotnainer{
+    background: transparent;
   }
 
   .image-cotnainer{
@@ -225,7 +228,8 @@ background: red;
 }
 
 .image-cotnainer{
-  background: #000;
+  /* display: none; */
+  /* background: #000; */
   padding-right: 150px;
 }
 
