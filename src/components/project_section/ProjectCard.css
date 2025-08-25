@@ -1,19 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
 .project-card {
-  background: #0d0d0d;
-  border: 1px solid #222;
+
+   font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+
+  /* background: green;  */
+  border: 1px solid #dab6b6;
   border-radius: 12px;
-  overflow: hidden;
+  /* overflow: hidden;   */
   width: 320px;
   display: flex;
   flex-direction: column;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   color: #fff;
+  position: relative;
+  z-index: 1;
 }
 
-.project-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
-}
+
+
+  .project-card:hover {
+    transform: translateY(17px);
+    /* background: rgb(35, 11, 247); */
+
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.527);
+  }
 
 .project-image img {
   width: 100%;
@@ -23,7 +37,7 @@
 }
 
 .project-content {
-  padding: 16px;
+  padding: 12px;
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -31,13 +45,13 @@
 
 .project-title {
   font-size: 1.25rem;
-  font-weight: 600;
+  font-weight: 300;
   color: #fff;
 }
 
 .project-description {
   font-size: 0.95rem;
-  color: #aaa;
+  color: #ffffff;
   line-height: 1.5;
   flex-grow: 1;
 }
