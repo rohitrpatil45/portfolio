@@ -8,10 +8,11 @@ function PorjectGrid() {
 <div className='motion-animation'>
   <motion.h1
       initial={{ opacity: 0, y: -50 }}   // starting state
-      animate={{ opacity: 1, y: 0 }}     // final state
-      transition={{ duration: 2 }}       // animation timing
+      animate={{ opacity: 1, y: 0 , rotate : -2}}     // final state
+      transition={{ duration: 1 }}       // animation timing
+    className='motion-h1'
     >
-      Hello Framer Motion 🚀
+      Projects 🚀
     </motion.h1>
 </div>
 
