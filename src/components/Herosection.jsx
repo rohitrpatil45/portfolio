@@ -44,7 +44,7 @@ function Herosection() {
           </div>
           <div className="web-app-developer">
             <span className="iamdev-container">
-              I am a Web App Developer in
+              I am a Web App <span className="developer-span">Developer</span> in
               <span className="changing-text-container"> {correntWord}</span>
             </span>
           </div>
