@@ -16,7 +16,16 @@ import MainSkill from "./skill-section/MainSkill";
 import Gitgraph from "./GitHubContribution/Gitgraph";
 
 function Herosection() {
-  const words = ["TailwindCSS", "JavaScript", "React", "Node.js", "ExpressJS", "MongoDB", "Frontend", "backend"];
+  const words = [
+    "TailwindCSS",
+    "JavaScript",
+    "React",
+    "Node.js",
+    "ExpressJS",
+    "MongoDB",
+    "Frontend",
+    "backend",
+  ];
   const [correntWord, setCurrentWord] = useState(words[0]);
   const [index, setindex] = useState(0);
 
@@ -44,7 +53,8 @@ function Herosection() {
           </div>
           <div className="web-app-developer">
             <span className="iamdev-container">
-              I am a Web App <span className="developer-span">Developer</span> in
+              I am a Web App <span className="developer-span">Developer</span>{" "}
+              in
               <span className="changing-text-container"> {correntWord}</span>
             </span>
           </div>
@@ -86,7 +96,7 @@ function Herosection() {
             </a>
           </div>
           <div className="btn-container">
-            <Btn btntext="Resume" icon={<IoMdDownload />} />
+            <Btn btntext="Resume ⇩" />
             <Btn btntext="Contact Me" />
           </div>
         </div>
@@ -99,7 +109,6 @@ function Herosection() {
       <MainSkill />
       <Gitgraph />
       <PorjectGrid />
-      
     </>
   );
 }
