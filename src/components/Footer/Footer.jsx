@@ -1,6 +1,7 @@
 import React from 'react'
 import '../Footer/Footer.css'
-
+import { GrMail } from "react-icons/gr";
+import { FaPhoneAlt } from "react-icons/fa";
 
 import logo  from '../../assets/navbar.png';
 import x from '../../components/Footer/social-icons/x.svg'
@@ -25,8 +26,8 @@ function Footer() {
     </div>
     <div className="lowerdiv">
         <h2>Contact</h2>
-        <p>rohitpatil1229@gmail.com</p>
-        <p>+91 9373329153</p>
+       <span className='flex'><GrMail /> <p>rohitpatil1229@gmail.com</p></span>
+      <span className='flex'> <FaPhoneAlt /> <p>+91 9373329153</p></span>
     </div>
 </div>
    </>
