@@ -2,4 +2,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background: rgb(134, 117, 117);
+    border-radius: 10px 10px 0px 0px;
+    /* transition: color 3s linear; */
+}
+
+.motion-h1:hover{
+    color: rgb(238, 5, 43);
+    
 }

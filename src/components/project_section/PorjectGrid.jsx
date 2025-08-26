@@ -13,12 +13,12 @@ function PorjectGrid() {
       <div className="motion-animation">
         <motion.h1
           ref={ref}
-          initial={{ opacity: 0, y: -50 , color: 'white' }}   /* starting state */
-          animate={isInView ? { opacity: 1, y: 0, rotate: -2, color : "red" } : {}} /* final state */
+          initial={{  y: -50  }}   /* starting state */
+          animate={isInView ? { y: 0, rotate: -3   } : {}} /* final state */
           transition={{ duration: 2.5 }}       /* animation timing */
           className="motion-h1"
         >
-          Projects 🚀
+          ProJects 🚀
         </motion.h1>
       </div>
  <GridContainer />
