@@ -19,7 +19,7 @@ function Gitgraph() {
           "https://github-contributions-api.jogruber.de/v4/rohitrpatil45?y=2025"
         );
         const data = await response.json();
-        console.log(data);
+        // console.log(data);
 
         const formattedData = data.contributions.map(
           ({ date, count, level }) => ({
@@ -39,7 +39,7 @@ function Gitgraph() {
   }, []);
 
   useEffect(() => {
-    console.log("Updated gitdata:", gitdata);
+    // console.log("Updated gitdata:", gitdata);  
   }, [gitdata]);
 
   const demodata = [

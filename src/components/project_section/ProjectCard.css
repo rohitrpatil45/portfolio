@@ -2,7 +2,7 @@
 
 .project-card {
 
-   font-family: "Merienda", cursive;
+  font-family: "Merienda", cursive;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
@@ -37,6 +37,10 @@
 }
 
 .project-content {
+  font-family: "Merienda", cursive !important;
+  /* font-optical-sizing: auto; */
+  font-weight: 100;
+  font-style: normal;
   padding: 12px;
   display: flex;
   flex-direction: column;
@@ -45,7 +49,7 @@
 
 .project-title {
   font-size: 1.25rem;
-  font-weight: 300;
+  /* font-weight: 300; */
   color: #fff;
 }
 
