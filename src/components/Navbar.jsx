@@ -23,11 +23,11 @@ function Navbar() {
         </Link>
 
         <div className={`menu-contianer ${isopen ? "active" : ""}`}>
-          <Link to="/about" className="nav-btn-wrapper" onClick={toggleMenu}>
-            <span className="nav-btn">Porject</span>
+          <Link to="/" className="nav-btn-wrapper" onClick={toggleMenu}>
+            <span className="nav-btn">Home</span>
           </Link>
           <Link to="/about" className="nav-btn-wrapper" onClick={toggleMenu}>
-            <span className="nav-btn">Resume</span>
+            <span className="nav-btn">About</span>
           </Link>
 
           <Link to="/contact" className="nav-btn-wrapper" onClick={toggleMenu}>

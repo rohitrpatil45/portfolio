@@ -26,8 +26,8 @@ function Footer() {
     </div>
     <div className="lowerdiv">
         <h2>Contact</h2>
-       <span className='flex'><GrMail /> <p>rohitpatil1229@gmail.com</p></span>
-      <span className='flex'> <FaPhoneAlt /> <p>+91 9373329153</p></span>
+       <span className='flex'>💌 <p>rohitpatil1229@gmail.com</p></span>
+      <span className='flex'> 📞 <p>+91 9373329153</p></span>
     </div>
 </div>
    </>
