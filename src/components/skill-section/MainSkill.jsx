@@ -1,6 +1,6 @@
 import React from "react";
 import SkillBox from "./SkillBox";
-import "./SkillBox.css";
+import "../skill-section/Skillbox.css";
 import reactimage from "./svg/react.svg";
 import nodeimage from "./svg/nodejs-icon.svg";
 import js from "./svg/js.svg";
