@@ -1,6 +1,6 @@
 import React from 'react'
 import '../pages/About.css'
-import rohit from '../rohitpatil.png'
+// import rohit from '../rohitpatil.png'
 
 function About() {
   return (
