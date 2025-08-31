@@ -11,23 +11,10 @@ function GridContainer() {
         image={projectdp}
         title="Real Estate Agent "
         description="A free AI-powered image editor with tools for background removal, recoloring, aspect ratio resizing, and image generation."
-        demoLink="#"
-        githubLink="#"
+        demoLink="https://kokan-ratnadevelopers.vercel.app/"
+        githubLink="https://github.com/rohitrpatil45/kokanRatnadevelopers"
       />
-      <ProjectCard
-        image={projectdp}
-        title="SnapLofgom"
-        description="A freesd AI-powered image editor with tools for background removal, recoloring, aspect ratio resizing, and image generation."
-        demoLink="#"
-        githubLink="#"
-      />
-      <ProjectCard
-        image={projectdp}
-        title="SnapLdoom"
-        description="A fresde AI-powered image editor with tools for background removal, recoloring, aspect ratio resizing, and image generation."
-        demoLink="#"
-        githubLink="#"
-      />
+     
       
     </div>
   );
