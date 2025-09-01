@@ -29,7 +29,10 @@ function Footer() {
                             <img src={git} alt="github" />
 
                         </a>
-                        <img src={insta} alt="instagram" />
+                       
+                       <a href="https://www.instagram.com/rohit__patil_096/?utm_source=ig_web_button_share_sheet">
+                         <img src={insta} alt="instagram" />
+                       </a>
                     </div>
                 </div>
                 <div className="lowerdiv">
