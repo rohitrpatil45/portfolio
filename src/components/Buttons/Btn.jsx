@@ -1,11 +1,14 @@
 import React from 'react'
 import '../Buttons/btn.css'
+import { Link } from 'react-router-dom'
 
-function Btn({btntext, icon}) {
+function Btn({ btntext, icon, links }) {
   return (
-   <>
-   <button> {btntext} <span className='icon-element'>{icon}</span></button>
-   </>
+    <>
+      <Link to={links}>
+        <button> {btntext} <span className='icon-element'>{icon}</span></button>
+      </Link>
+    </>
   )
 }
 

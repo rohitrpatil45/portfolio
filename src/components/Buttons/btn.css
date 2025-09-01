@@ -20,6 +20,10 @@ button{
  
     /* align-items: center; */
 }
+
+a{
+  text-decoration: none;
+}
 .icon-element{
     /* padding-top: 15px; */
     /* display: flex;

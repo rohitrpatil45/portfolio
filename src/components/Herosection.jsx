@@ -96,8 +96,8 @@ function Herosection() {
             </a>
           </div>
           <div className="btn-container">
-            <Btn btntext="Resume ⇩" />
-            <Btn btntext="Contact Me" />
+            <Btn btntext="Resume ⇩"  />
+            <Btn btntext="Contact Me" links='/contact' />
           </div>
         </div>
         <div className="mainright">
