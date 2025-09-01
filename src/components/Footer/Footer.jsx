@@ -30,7 +30,7 @@ function Footer() {
 
                         </a>
                        
-                       <a href="https://www.instagram.com/rohit__patil_096/?utm_source=ig_web_button_share_sheet">
+                       <a href="https://www.instagram.com/rohit__patil_096/?utm_source=ig_web_button_share_sheet" target='_blank'> 
                          <img src={insta} alt="instagram" />
                        </a>
                     </div>
