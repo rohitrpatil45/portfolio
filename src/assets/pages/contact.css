@@ -1,0 +1,15 @@
+.contact-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-container h2{
+    color: red;
+}
+
+.contact-container p{
+    color: white;
+}
