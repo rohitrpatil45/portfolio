@@ -19,7 +19,7 @@ function GridContainer() {
          <ProjectCard
         image={fancynamedp}
         title="FF FancyName Generator"
-        description="A lightweight name generator that produces elegant, fancy, and creative names for branding, apps, and personal use."
+        description="This fancy name generator spins out unique, stylish, and eye-catching names for your next project, game character, business, or social profile."
         demoLink="https://ffstylishname.vercel.app/"
         githubLink="https://github.com/rohitrpatil45/ffstylishname"
       />
