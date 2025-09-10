@@ -96,8 +96,11 @@ function Herosection() {
             </a>
           </div>
           <div className="btn-container">
-            <Btn btntext="Resume ⇩"  />
-            <Btn btntext="Contact Me" links='/contact' />
+            {/* This button will trigger a download */}
+            <Btn btntext="Resume ⇩" downloadLink="/rohitpatil.pdf" />
+
+            {/* This button will navigate to the /contact page */}
+            <Btn btntext="Contact Me" links="/contact" />
           </div>
         </div>
         <div className="mainright">
